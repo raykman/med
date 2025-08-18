@@ -748,6 +748,10 @@
   font-size: 20px;
 }
 
+.waves---paragraph-big.competition-left.small-header {
+  margin-top: 20px;
+}
+
 .waves---heading-2-no-margins {
   margin-top: 0;
   margin-bottom: 0;
@@ -1543,6 +1547,14 @@
   display: flex;
 }
 
+.waves---center-heading-3.eval-criteria {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .waves---main-container-3 {
   max-width: 1352px;
   padding-left: 24px;
@@ -1715,6 +1727,14 @@
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.container-14 {
+  max-width: 940px;
+}
+
+.container-14.sec3-comp.eval {
+  margin-top: 100px;
 }
 
 .section-6 {
@@ -2316,6 +2336,12 @@
     margin-top: 40px;
   }
 
+  .container-14.sec3-comp.eval {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
   .container-14.sec4-comp {
     display: block;
   }
@@ -2395,6 +2421,10 @@
   .waves-master-contact-2 {
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .section-8 {
+    padding-bottom: 60px;
   }
 }
 
@@ -2581,6 +2611,11 @@
 
   .waves---paragraph-big.competition-left {
     text-align: left;
+  }
+
+  .waves---paragraph-big.competition-left.small-header {
+    text-align: center;
+    width: 80%;
   }
 
   .waves---content-sticky-features-2 {
@@ -2843,6 +2878,17 @@
 
   .heading-11 {
     font-size: 20px;
+  }
+
+  .container-14.sec3-comp.eval {
+    text-align: center;
+  }
+
+  .container-14.sec3-comp.eval-text {
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
   }
 
   .mini-bold {
@@ -3461,7 +3507,7 @@
 
   .waves---paragraph-big.competition-left.small-header {
     padding-top: 20px;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .waves---heading-2-no-margins {
@@ -3692,6 +3738,10 @@
     font-size: 30px;
   }
 
+  .waves---center-heading-3.eval-criteria {
+    margin-top: 54px;
+  }
+
   .waves---section-medium-4 {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -3758,6 +3808,10 @@
     justify-content: flex-start;
     align-items: center;
     padding-right: 0;
+  }
+
+  .waves-tile-feature-1.comp-full._3rd-mobile {
+    margin-bottom: 0;
   }
 
   .waves-grid-features-1 {
@@ -3982,15 +4036,6 @@
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-b9f7ccb5-1bee-3198-9277-4e898c70ef2d-b3c4d052 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-bc5b53ce-df60-f061-1c18-5bbe4c9b4478-b3c4d052, #w-node-bc5b53ce-df60-f061-1c18-5bbe4c9b447c-b3c4d052, #w-node-bc5b53ce-df60-f061-1c18-5bbe4c9b4480-b3c4d052, #w-node-bc5b53ce-df60-f061-1c18-5bbe4c9b4484-b3c4d052, #w-node-_10e1f689-1268-2d31-0b0a-c42c2911af82-f8061241, #w-node-_10e1f689-1268-2d31-0b0a-c42c2911af89-f8061241, #w-node-_10e1f689-1268-2d31-0b0a-c42c2911af90-f8061241, #w-node-_10e1f689-1268-2d31-0b0a-c42c2911af97-f8061241, #w-node-a474638e-a55d-5cbe-02d5-924f66d8237c-f8061241, #w-node-a474638e-a55d-5cbe-02d5-924f66d82380-f8061241, #w-node-a474638e-a55d-5cbe-02d5-924f66d82384-f8061241, #w-node-a474638e-a55d-5cbe-02d5-924f66d82388-f8061241 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
 #w-node-b9f7ccb5-1bee-3198-9277-4e898c70ef2d-368f39b1 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -4014,7 +4059,7 @@
     grid-row: span 2 / span 2;
   }
 
-  #w-node-ba64650b-87eb-2a22-e6ba-a1efee5ddf49-8defbaec, #w-node-_6e5ca0cd-ea1c-d3e7-f590-36fd38390d7a-8defbaec, #w-node-_6e5ca0cd-ea1c-d3e7-f590-36fd38390d83-8defbaec, #w-node-_10e1f689-1268-2d31-0b0a-c42c2911af90-f8061241 {
+  #w-node-ba64650b-87eb-2a22-e6ba-a1efee5ddf49-8defbaec, #w-node-_6e5ca0cd-ea1c-d3e7-f590-36fd38390d7a-8defbaec, #w-node-_6e5ca0cd-ea1c-d3e7-f590-36fd38390d83-8defbaec {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
@@ -4096,7 +4141,7 @@
     grid-row: span 2 / span 2;
   }
 
-  #w-node-b9f7ccb5-1bee-3198-9277-4e898c70ef2d-b3c4d052, #w-node-b9f7ccb5-1bee-3198-9277-4e898c70ef2d-368f39b1 {
+  #w-node-b9f7ccb5-1bee-3198-9277-4e898c70ef2d-368f39b1 {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
